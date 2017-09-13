@@ -1,0 +1,217 @@
+10
+
+dir
+0
+https://gcpsolver.googlecode.com/svn/trunk/Graph%20Colouring%20Problem/Generator
+https://gcpsolver.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1f7ea0b2-3848-7187-a248-83659517417c
+
+generate.h
+file
+
+
+
+add
+
+graph.c
+file
+
+
+
+add
+
+utility.c
+file
+
+
+
+add
+
+verify.c
+file
+
+
+
+add
+
+generator
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+randgraph.c
+file
+
+
+
+add
+
+graph.h
+file
+
+
+
+add
+
+edgestruct.c
+file
+
+
+
+add
+
+geomgraph.c
+file
+
+
+
+add
+
+README
+file
+
+
+
+add
+
+girth.c
+file
+
+
+
+add
+
+tags
+file
+
+
+
+add
+
+printgraph.c
+file
+
+
+
+add
+
+select.c
+file
+
+
+
+add
+
+inputs.c
+file
+
+
+
+add
+
+clique.c
+file
+
+
+
+add
+
+cheat.c
+file
+
+
+
+add
+
+main.c
+file
+
+
+
+add
+
+whatgraph.c
+file
+
+
+
+add
+
+flat.c
+file
+
+
+
+add
+
+randcntrl.c
+file
+
+
+
+add
+
+weight.c
+file
+
+
+
+add
+
+geomcntrl.c
+file
+
+
+
+add
+
+makefile
+file
+
+
+
+add
+
+evacuate.c
+file
+
+
+
+add
+
+salida1
+file
+
+
+
+add
+

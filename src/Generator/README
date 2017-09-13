@@ -1,0 +1,34 @@
+Graph Coloring Generator Version 2
+This is in most respects similar to Version 1.
+See below for the principle difference.
+See the generator page manual for the earlier version at
+   http://web.cs.ualberta.ca/~joe/Coloring/Generators/manual.html
+
+Hints on usage:
+
+Different graph classes require different inputs. If you run this program
+interactively then sufficient prompt hints will guide you to the required
+inputs for the class of interest. It is then suggested that you use e.g. a
+Perl script to generate the input file and run generator repeatedly for
+batch runs.
+
+...........
+The primary difference between this and the earlier version is the
+inclusion of code to generate evacuation graphs.  After the first or
+hidden coloring is set, a complete k-partite graph is generated, with the
+only independent sets being the elements of the hidden coloring. Then
+the following:
+
+Repeat 
+   Generate a new partition of the vertices into k sets (deceptive coloring).
+   For each of the k sets, 
+       for every edge with both end points in the set
+       delete it with probability 1-r, where r is the fraction to leave behind.
+       (terminate loop if desired edge density achieved)
+until desired edge density is achieved.
+
+Note the last deceptive coloring may be partial.
+
+The hidden and deceptive colorings are printed in file.dcp where the graph is
+in file.
+

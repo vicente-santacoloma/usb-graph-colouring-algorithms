@@ -1,0 +1,142 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/darren@hiebert.com/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.0.1	//
+BicoefType	graph.h	/^typedef long BicoefType[MAXM][MAXM];$/;"	t
+DEBUG	graph.c	53;"	d	file:
+DEBUGVV	graph.c	52;"	d	file:
+DELTA	generate.h	86;"	d
+EQUIPARTITE	generate.h	83;"	d
+GRAPHSIZE	generate.h	56;"	d
+KCOLORABLE	generate.h	84;"	d
+KSMOOTH	generate.h	85;"	d
+MAXM	graph.h	26;"	d
+MAXPERLINE	evacuate.c	29;"	d	file:
+MAXPREAMBLE	printgraph.c	36;"	d	file:
+MAXVERTEX	generate.h	58;"	d
+MAXVERTEX	graph.h	27;"	d
+MAXWEIGHT	generate.h	60;"	d
+MAX_NR_VERTICES	generate.h	53;"	d
+MAX_NR_VERTICESdiv8	generate.h	54;"	d
+TEST	randcntrl.c	3;"	d	file:
+VALUESPERLINE	cheat.c	50;"	d	file:
+actualWeight	edgestruct.c	/^int actualWeight(int weight[], int node, int maxnode)$/;"	f
+actualWeight	weight.c	/^long actualWeight(long weight[], long node, long maxnode)$/;"	f
+assign1	flat.c	/^void assign1(graph,vset,size,nedges,b1,b2,large,part,flat)$/;"	f
+binary	whatgraph.c	/^int binary;	\/* Flag.  0 if output is ASCII, 1 if output binary *\/$/;"	v
+block	whatgraph.c	/^graphtype block;	\/* The blocking graph *\/$/;"	v
+cheat	whatgraph.c	/^char *cheat;		\/* The cheat info string *\/$/;"	v
+cheatflag	whatgraph.c	/^int cheatflag;		\/* == 1 if a cheat is to be included in the output file *\/$/;"	v
+clearedge	graph.c	60;"	d	file:
+cleargraph	utility.c	/^void cleargraph(graphtype graph )$/;"	f
+clique	clique.c	/^void clique(graph,size,perm,firstv,order,parts,edges,size_weighted)$/;"	f
+colorcompare	verify.c	/^int colorcompare( const int *i, const int *j )$/;"	f
+colortype	graph.c	/^typedef unsigned int colortype;$/;"	t	file:
+compfunc	verify.c	/^typedef int (*compfunc)();$/;"	t	file:
+create_and_shuffle	utility.c	/^void create_and_shuffle(vset,order)$/;"	f
+create_flat_graph	flat.c	/^void create_flat_graph(graph,size,prob,part,flat,edges)$/;"	f
+cycle	cycle.c	/^int cycle(graphtype graph, int size, int order, $/;"	f
+dblrand	utility.c	/^double dblrand()$/;"	f
+degree	clique.c	/^int degree[MAX_NR_VERTICES];$/;"	v
+degree_check	girth.c	/^int degree_check(degrees,i,j,avg,delta)$/;"	f
+degree_control_graph	girth.c	/^void degree_control_graph($/;"	f
+deindex	edgestruct.c	/^void deindex(int k, int *i, int*j)$/;"	f
+deindex	weight.c	/^void deindex(long k, int *i, int*j)$/;"	f
+dfsblock	girth.c	/^void dfsblock(blocker,graph,u,pu,v,pv,girth,size)$/;"	f
+dfsother	girth.c	/^void dfsother(blocker,graph,u,pu,v,pv,girth,size)$/;"	f
+distance	geomgraph.c	/^double distance(double vert[], int dim ,long i, long j, int depth, int wrap) {$/;"	f
+edge	graph.c	61;"	d	file:
+firstclass	randgraph.c	/^long firstclass(long c,long order,long numpart,long delta)$/;"	f
+flat	whatgraph.c	/^int flat;	\/* Flatness (for flatgraphs) *\/$/;"	v
+gen_and_print_geo	geomcntrl.c	/^void gen_and_print_geo(specs,graph,block,order,part,size)$/;"	f
+gen_and_print_k	randcntrl.c	/^void gen_and_print_k(file)$/;"	f
+gen_clique_graph	clique.c	/^void gen_clique_graph(graph,order,edges,parts,colors,size_weighted) $/;"	f
+gen_cycle_graph	cycle.c	/^void gen_cycle_graph(graphtype graph, int order, long *edges, int parts,$/;"	f
+gen_evacuate_graph	evacuate.c	/^void gen_evacuate_graph(graphtype graph, graphtype block,int order, $/;"	f
+gen_geo_graph	geomgraph.c	/^void gen_geo_graph(char graph[MAX_NR_VERTICES][MAX_NR_VERTICESdiv8],$/;"	f
+get_degree_info	utility.c	/^void get_degree_info(graphtype graph, int order, char *string)$/;"	f
+get_edge	utility.c	/^char get_edge(  int u,  int v, graphtype graph ) {$/;"	f
+get_scheme	evacuate.c	/^void get_scheme(int order,int *what, int *numpart,double *variab, char *specs,$/;"	f
+getcheat	cheat.c	/^int getcheat(int partset[MAXVERTEX], int order, char **cheat) $/;"	f
+getdelta	weight.c	/^long getdelta(long weight[], long node, long maxnode, char add, double delta)$/;"	f
+getdflag	inputs.c	/^void getdflag(int *dflag, double distance)$/;"	f
+getdimension	inputs.c	/^void getdimension(int *dim) {$/;"	f
+getdistance	inputs.c	/^void getdistance(double *distance) {$/;"	f
+getflatness	inputs.c	/^void getflatness(int *flatness)$/;"	f
+getformat	inputs.c	/^void getformat(format)$/;"	f
+getgirth	inputs.c	/^void getgirth(girth)$/;"	f
+getgnufile	inputs.c	/^void getgnufile(char *specs,FILE **file) {$/;"	f
+getmaxattempt	inputs.c	/^void getmaxattempt(int *maxattempt)$/;"	f
+getorder	inputs.c	/^void getorder(order)$/;"	f
+getpart	inputs.c	/^void getpart(order,part)$/;"	f
+getpartvar	inputs.c	/^void getpartvar(order,partition,vari)$/;"	f
+getprob	inputs.c	/^void getprob(probability)$/;"	f
+getprobvar	inputs.c	/^void getprobvar(probability,vari)$/;"	f
+getsize	inputs.c	/^void getsize(size)$/;"	f
+getweightedinputs	inputs.c	/^void getweightedinputs(char *specs,int order, int *initialw, int *addflag1,$/;"	f
+getwhich	inputs.c	/^void getwhich(which)$/;"	f
+getwrap	inputs.c	/^void getwrap(int *wrap) {$/;"	f
+graph	whatgraph.c	/^graphtype graph;	\/* The graph itself *\/$/;"	v
+graphtype	generate.h	/^typedef char graphtype[MAX_NR_VERTICES][MAX_NR_VERTICESdiv8]; $/;"	t
+i	select.c	/^                short i,j;$/;"	m	struct:pairstr	file:
+index	edgestruct.c	/^int index(int i, int j)$/;"	f
+index	weight.c	/^long index(int i, int j)$/;"	f
+initblock	randgraph.c	/^void initblock(char block[MAX_NR_VERTICES][MAX_NR_VERTICESdiv8],$/;"	f
+initblock2	randgraph.c	/^void initblock2(char block[MAX_NR_VERTICES][MAX_NR_VERTICESdiv8],$/;"	f
+initrandom	utility.c	/^int initrandom()$/;"	f
+initselect	select.c	/^void initselect( pairtype **pair, int *availpair, int *waitpair, int size  )$/;"	f
+initweights	edgestruct.c	/^void initweights(int weight[], int maxnode, int delta)$/;"	f
+initweights	weight.c	/^void initweights(graphtype block,long weight[], long maxnode, long delta)$/;"	f
+j	select.c	/^                short i,j;$/;"	m	struct:pairstr	file:
+k_color	graph.c	/^void k_color(graph,block,order,size,prob)$/;"	f
+lastclass	randgraph.c	/^long lastclass(long c,long order,long numpart,long delta)$/;"	f
+main	edgestruct.c	/^void main(){$/;"	f
+main	main.c	/^int main(argc,argv)$/;"	f
+main	select.c	/^void main() {$/;"	f
+masks	utility.c	/^char masks[ 8 ] = { 0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80 };$/;"	v
+numpart	whatgraph.c	/^int numpart;	\/* Number of color partitions (ie: # of colors hidden *\/$/;"	v
+order	whatgraph.c	/^int order;	\/* Number of vertices *\/$/;"	v
+pairstr	select.c	/^typedef struct pairstr {$/;"	s	file:
+pairtype	select.c	/^        } pairtype;$/;"	t	file:
+parm	whatgraph.c	/^char parm[80];		\/* String containing edge and order info *\/$/;"	v
+partitionflag	cheat.c	/^int partitionflag;$/;"	v
+partitionnumber	cheat.c	/^int partitionnumber;$/;"	v
+partset	cheat.c	/^int partset[MAXVERTEX];$/;"	v
+prob	whatgraph.c	/^double prob;	\/* Edge probability *\/$/;"	v
+rand	generate.h	31;"	d
+rand	utility.c	/^long rand(long k)$/;"	f
+rand2	generate.h	44;"	d
+randchoice	inputs.c	/^void randchoice(long *which)$/;"	f
+seed	whatgraph.c	/^int seed;	\/* Randomizer seed *\/$/;"	v
+set_edge	utility.c	/^void set_edge( register int u, register int v, char x, graphtype graph  )$/;"	f
+setedge	graph.c	59;"	d	file:
+shuffle	girth.c	/^void shuffle(int *array, int size)$/;"	f
+size	whatgraph.c	/^long size;	\/* Number of edges in graph *\/$/;"	v
+something	utility.c	/^void something(s)$/;"	f
+specialpart	evacuate.c	/^void specialpart(int order, int numpart,int *perm, int numd,int sized, $/;"	f
+specs	whatgraph.c	/^char specs[500];	\/* Specification string *\/$/;"	v
+swap	cycle.c	/^static void swap(int array[], int i, int j)$/;"	f	file:
+temp	whatgraph.c	/^char temp[150];		\/* Temporary string; various uses *\/$/;"	v
+testbnd	randcntrl.c	/^void testbnd(order,numpart,part_var)$/;"	f
+update	edgestruct.c	/^void update(weight,node,delta)$/;"	f
+update	weight.c	/^void update(weight,node,delta)$/;"	f
+variab	whatgraph.c	/^double variab;	\/* Variability.  Used in some k-colorings *\/$/;"	v
+verify	whatgraph.c	/^char verify[300];	\/* Verification string *\/$/;"	v
+verify_color	verify.c	/^void verify_color(graph,size,part,verify)$/;"	f
+vertex	geomgraph.c	/^struct vertex {$/;"	s	file:
+weightedSelect	edgestruct.c	/^int weightedSelect(weight,maxnode)$/;"	f
+weightedSelect	weight.c	/^long weightedSelect(weight,maxnode)$/;"	f
+weighted_graph	weight.c	/^void weighted_graph(graphtype graph, graphtype blocker,$/;"	f
+weighttree	weight.c	/^void weighttree(long weight[], long maxnode)$/;"	f
+welcome	inputs.c	/^void welcome()$/;"	f
+whatgraph	whatgraph.c	/^void whatgraph(file)$/;"	f
+whatgraph_others	whatgraph.c	/^void whatgraph_others(char *file)$/;"	f
+write_graph_DIMACS_ascii	printgraph.c	/^void write_graph_DIMACS_ascii(file,Nr_vert,specs,verify,parm,cheat,Bitmap)$/;"	f
+write_graph_DIMACS_bin	printgraph.c	/^void write_graph_DIMACS_bin(file,Nr_vert,specs,verify,parm,cheat,Bitmap)$/;"	f
+x	geomgraph.c	/^  double x;$/;"	m	struct:vertex	file:
+xdrandom	generate.h	40;"	d
+xrandom	generate.h	38;"	d
+xsrandom	generate.h	41;"	d
+y	geomgraph.c	/^  double y;$/;"	m	struct:vertex	file:
